@@ -18,7 +18,7 @@ from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
 
 GITHUB_ISSUES_URL = (
-    "https://api.github.com/repos/HackerspaceMumbai/bethuya/issues"
+    "https://api.github.com/repos/indcoder/ghost-in-the-machine/issues"
     "?labels=bug&state=open"
 )
 GITHUB_TIMEOUT = (3.05, 10)
