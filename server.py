@@ -22,7 +22,7 @@ GITHUB_ISSUES_URL = (
     "?labels=bug&state=open"
 )
 GITHUB_TIMEOUT = (3.05, 10)
-OLLAMA_TIMEOUT = (3.05, 120)
+OLLAMA_TIMEOUT = (3.05, 300)
 FALLBACK_HAUNTING = "THE SIGNAL IS LOST"
 SYSTEM_PROMPT = (
     "You are a cryptic, sinister digital spirit trapped in an Arduino. "
